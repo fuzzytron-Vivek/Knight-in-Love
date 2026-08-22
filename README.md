@@ -4,12 +4,10 @@
 
 This is an experimental repository for generating a **workspace envelope** for a robotic arm using **ROS 2**.
 
-The setup **URDF 5-DOF robotic arm**.
+The model used is a **URDF 5-DOF robotic arm**.
 
 ## **RUNNING THE VISUALIZER**
-This experiment generates a workspace envelope of a robotic arm in RViZ-2.
-
-The goal is to generate a hollow envelope around the robotic arm with the given constraints/input parameters.
+This experiment generates a workspace envelope of a robotic arm in **RViZ2** around the robotic arm with the given constraints/input parameters.
 
 **Initial setup involves** : 
 - An RViZ instance for visualizing the URDF model.
