@@ -1,4 +1,8 @@
 /build 
 /install
-/log 
+/log
+/src/workspace_visualizer/CMakeLists.txt 
+/src/workspace_visualizer/package.xml 
+/src/workspace_visualizer/include/
+
 
