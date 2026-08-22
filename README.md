@@ -2,7 +2,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=cpp,ros)](https://skillicons.dev)
 
-This is a ROS2 based repository aimed at generating a **workspace envelope** for a robotic arm.
+This is an experimental repository for generating a **workspace envelope** for a robotic arm using ROS2.
 
 The initial setup uses a **URDF 6DOF robotic arm** , further additions may involve custom models.
 
