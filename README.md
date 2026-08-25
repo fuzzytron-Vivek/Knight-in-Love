@@ -13,6 +13,7 @@ This experiment generates a workspace envelope of a robotic arm in **RViZ2** aro
 - An RViZ instance for visualizing the URDF model.
 - A second RViZ instance which displays the workspace-envelope of the robotic arm.(WORK IN PROGRESS)
 - A C++ node publishing joint-states to control the arm.
+- Closing the Joint State Publisher GUI window after launching the node.
 
 ---
 
