@@ -7,7 +7,7 @@ This is an experimental repository for generating a **workspace envelope** for a
 The model used is a **URDF 5-DOF robotic arm**.
 
 ## **RUNNING THE VISUALIZER**
-This experiment generates a workspace envelope of a robotic arm in **RViZ2** around the robotic arm with the given constraints/input parameters.
+To generate a workspace envelope of a robotic arm in **RViZ2**  with kinematic constraints applied to the joints.
 
 **Initial setup involves** : 
 - An RViZ instance for visualizing the URDF model.
