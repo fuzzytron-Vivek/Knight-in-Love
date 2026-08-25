@@ -9,7 +9,7 @@ The model used is a **URDF 5-DOF robotic arm**.
 ## **RUNNING THE VISUALIZER**
 To generate a workspace envelope of a robotic arm in **RViZ2**  with kinematic constraints applied to the joints.
 
-**Initial setup involves** : 
+**Workflow** : 
 - An RViZ instance for visualizing the URDF model.
 - A second RViZ instance which displays the workspace-envelope of the robotic arm.
 - A C++ node publishing joint-states to control the arm.
@@ -32,6 +32,6 @@ ros2 run workspace_visualizer workspace_visualizer
 ```
 
 ## DEVELOPMENT STATUS : 
-- Accuracy of generated trajectory is not accurate.
-- The version of this project as of `/2026-08-25` has only proved the appearance of a trail and the spherical point in the visualizer.
+- Accuracy of generated trajectory does not represent a valid workspace-envelope.
+- The version of this project as of `/2026-08-25` has only been validated for the appearance of a trail and the spherical point in the visualizer.
 - Further changes aim to involve more accurate workspace-envelope generation along with some fun features that are purely cosmetic but very cool to look at along with better structured documentation and explanation of the C++ code. 
