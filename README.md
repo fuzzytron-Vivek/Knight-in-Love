@@ -17,8 +17,9 @@ To generate a workspace envelope of a robotic arm in **RViZ2**  with kinematic c
 - Add a marker display through the GUI.
 - Set topic to `/eef_tracker`. 
 - The end effector tracker is comprised of two geometries:
-    -point : a sphere corresponding to the end effector.
-    -trail : a collection of points which shows a trail traversed by the end effector.
+
+    - point : a sphere corresponding to the end effector.
+    - trail : a collection of points which shows a trail traversed by the end effector.
 
 - color configuration of the trail and the point can be set by altering the (R,G,B,A) values in the `visualizer_node.cpp`.
 
